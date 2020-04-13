@@ -24,7 +24,8 @@ CREATE TABLE professor (
 
 DROP TABLE department CASCADE CONSTRAINTS;
 CREATE TABLE department (
-  dHead    varchar2(15), 
+  dHead    varchar2(15),
+  dHeadID  char(9),
   dName    varchar2(15),
   dID      char(9),
   dPhone   varchar(10),
@@ -50,6 +51,7 @@ CREATE TABLE section (
   roomNum     varchar2(5),
   bldg        varchar2(20),
   sNum        char(3),
+  profID     char(9),
   primary key (sNum)
   );
   
@@ -66,6 +68,10 @@ ALTER TABLE section ADD (
 
 ALTER TABLE professor ADD (
     foreign key (dptID) references department(dID)
+);
+
+ALTER TABLE department ADD (
+    foreign key (dHeadID) references professor(pID)
 );
 
 DROP TABLE classes CASCADE CONSTRAINTS;
