@@ -19,6 +19,7 @@ CREATE TABLE professor (
   pID      char(9),
   DOB      date,
   sex      char,
+  dptID    char(9),
   primary key (pID)
 );
 
@@ -36,12 +37,15 @@ DROP TABLE course CASCADE CONSTRAINTS;
 CREATE TABLE course (
   cName    varchar2(50),
   cID      char(9),
+  season   varchar2(6),
+  year_    char(4),
+  dptID    char(9),
   primary key (cID)
   );
   
 DROP TABLE semester CASCADE CONSTRAINTS;
 CREATE TABLE semester (
-  season     varchar2(5),
+  season     varchar2(6),
   year_      char(4),
   primary key (season, year_)
   );
@@ -56,14 +60,12 @@ CREATE TABLE section (
   );
   
 ALTER TABLE course ADD (
-  foreign key (season) references semester(season),
-  foreign key (year_)  references semester(year),
+  foreign key (season, year_) references semester(season, year_),
   foreign key (dptID)  references department(dID)
 );
 
 ALTER TABLE section ADD (
-    foreign key (profID) references professor(pID),
-    foreign key (secNum) references section(sNum)
+    foreign key (profID) references professor(pID)
 );
 
 ALTER TABLE professor ADD (
@@ -76,6 +78,8 @@ ALTER TABLE department ADD (
 
 DROP TABLE classes CASCADE CONSTRAINTS;
 CREATE TABLE classes (
+    stID    char(9),
+    secNum  char(3),
     foreign key (stID) references student(stID),
     foreign key (secNum) references section(sNum),
     primary key (stID, secNum)
