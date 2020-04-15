@@ -1,1 +1,2 @@
-
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
+VALUES
