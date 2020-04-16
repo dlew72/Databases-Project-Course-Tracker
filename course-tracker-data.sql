@@ -199,4 +199,64 @@ VALUES ('Peter', 'M', 'Staffeld', 333333323, '27-FEB-74', 'M', 000000003);
 INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
 VALUES ('Randy', 'D', 'Weinstein', 333333324, '14-MAY-57', 'M', 000000003);
 
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Shawn', 'P', 'Gross', 123456000, '17-NOV-74', 'M', 000000004);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('David', 'S', 'Dinehart', 444444411, '30-OCT-76', 'M', 000000004);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Metin', 'D', 'Duran', 444444412, '07-FEB-64', 'M', 000000004);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Ali', 'M', 'Ebrahimian', 444444413, '14-APR-67', 'M', 000000004);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Kelly', 'A', 'Good', 444444414, '04-JUL-80', 'F', 000000004);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Frank', 'P', 'Hampton', 444444415, '10-JUL-53', 'M', 000000004);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Jonathan', 'F', 'Hubler', 444444416, '17-FEB-69', 'M', 000000004);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('John', 'J', 'Komlos', 444444417, '13-MAY-73', 'M', 000000004);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Eric', 'J', 'Musselman', 444444418, '29-NOV-60', 'M', 000000004);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Seri', 'E', 'Park', 444444419, '16-DEC-77', 'F', 000000004);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Kristin', 'S', 'Sample-Lord', 444444420, '11-MAY-77', 'F', 000000004);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Shweta', 'K', 'Shrestha', 444444421, '15-AUG-65', 'F', 000000004);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Virginia', 'S', 'Smith', 444444422, '15-MAY-65', 'F', 000000004);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Robert', 'G', 'Traver', 444444423, '16-JUL-82', 'M', 000000004);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Bridget', 'R', 'Wadzuk', 444444424, '08-NOV-55', 'F', 000000004);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Stephanie', 'B', 'Walkup', 444444425, '29-SEP-79', 'F', 000000004);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Kevin', 'A', 'Waters', 444444426, '16-JAN-50', 'M', 000000004);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Andrea', 'L', 'Welker', 444444427, '05-JUN-62', 'F', 000000004);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Wenqing', 'V', 'Xu', 444444428, '28-JUL-69', 'F', 000000004);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Joseph', 'R', 'Yost', 444444429, '27-OCT-61', 'M', 000000004);
+
 
