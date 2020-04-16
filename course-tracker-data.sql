@@ -8,7 +8,7 @@ INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
 VALUES ('Andrew', 'K', 'Donofrio', 01635876, '02-JUN-99', 'Math', 'M', 'Comp Sci');
 
 INSERT INTO department (dHead, dHeadID, dName, dID, dPhone)
-VALUES ('Mobasseri', 123456789, 'Computer Eng', 000000001, 6105194958);
+VALUES ('Mobasseri', 123456789, 'Comp/Elec Eng', 000000001, 6105194958);
 
 INSERT INTO department (dHead, dHeadID, dName, dID, dPhone)
 VALUES ('Santhanam', 123456780, 'Mechanical Eng', 000000002, 6105194996);
@@ -51,5 +51,36 @@ VALUES ('Mark', 'A', 'Jupina', 111111119, '28-AUG-62', 'M', 000000001);
 
 INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
 VALUES ('Nisha', 'R', 'Kondrath', 111111120, '26-FEB-71', 'F', 000000001);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Stephen', 'Q', 'Konyk', 111111121, '14-MAY-54', 'M', 000000001);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Sarvesh', 'K', 'Kulkarni', 111111122, '06-NOV-77', 'M', 000000001);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Richard', 'A', 'Perry', 111111123, '01-JAN-33', 'M', 000000001);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('James', 'C', 'Peyton Jones', 111111124, '28-DEC-57', 'M', 000000001);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Pritpal', 'R', 'Singh', 111111125, '25-APR-66', 'M', 000000001);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('James', 'J', 'Solderitsch', 111111126, '27-AUG-78', 'M', 000000001);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Mojtaba', 'Z', 'Vaezi', 111111127, '16-SEP-81', 'M', 000000001);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Xiaofang', 'M', 'Wang', 111111128, '02-OCT-79', 'F', 000000001);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Rosalind', 'A', 'Wynne', 111111129, '07-MAY-79', 'F', 000000001);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Jiafeng', 'Y', 'Xie', 111111130, '22-MAR-78', 'M', 000000001);
+
 
 
