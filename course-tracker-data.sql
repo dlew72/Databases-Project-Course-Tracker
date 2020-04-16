@@ -82,5 +82,38 @@ VALUES ('Rosalind', 'A', 'Wynne', 111111129, '07-MAY-79', 'F', 000000001);
 INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
 VALUES ('Jiafeng', 'Y', 'Xie', 111111130, '22-MAR-78', 'M', 000000001);
 
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Sridhar', 'O', 'Santhanam', 123456780, '09-MAY-68', 'M', 000000002);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Hashem', 'S', 'Ashrafiuon', 222222211, '16-MAY-62', 'M', 000000002);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('David', 'O', 'Cereceda', 222222212, '05-JUL-78', 'M', 000000002);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Garrett', 'M', 'Clayton', 222222213, '28-JUL-72', 'M', 000000002);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Ioanna', 'D', 'Fampiou', 222222214, '20-FEB-64', 'F', 000000002);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Gang', 'E', 'Feng', 222222215, '02-JUN-56', 'M', 000000002);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Gerard', 'F', 'Jones', 222222216, '20-OCT-73', 'M', 000000002);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Jens', 'O', 'Karlsson', 222222217, '21-APR-67', 'M', 000000002);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Jeffrey', 'L', 'Koller', 222222218, '14-APR-74', 'M', 000000002);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Bo', 'K', 'Li', 222222219, '05-OCT-78', 'M', 000000002);
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
+VALUES ('Calvin', 'H', 'Li', 222222220, '16-MAY-62', 'M', 000000002);
+
 
 
