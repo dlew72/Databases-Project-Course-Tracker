@@ -45,3 +45,39 @@ VALUES ('Ashton', 'C', 'Kutcher', 27197870, '7-FEB-78', 'Chemical Eng', 'M', 'Th
 
 INSERT INTO student (fname, lname, stID, DOB, major, sex)
 VALUES ('George', 'Stephenson', 96811435, '9-JUN-81', 'Civil Eng', 'M');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex)
+VALUES ('Lancelot', 'C', 'Brown', 17151783, '30-AUG-16', 'Civil Eng', 'M');
+
+INSERT INTO student (fname, lname, stID, DOB, major, sex, minor)
+VALUES ('Albert', 'Magnus', 12000815, '1-JAN-1200', 'Chemical Eng', 'M', 'Theology');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
+VALUES ('Marie', 'S', 'Curie', 07111867, '7-NOV-1867', 'Chemical Eng', 'F', 'Physics');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex)
+VALUES ('Jane', 'T', 'Smith', 24681357, '1-JAN-00', 'Computer Eng', 'F');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
+VALUES ('Werner', 'K', 'Heisenberg', 19327674, '5-DEC-1901', 'Physics', 'M', 'Comp Sci');
+
+INSERT INTO student (fname, lname, stID, DOB, major, sex, minor)
+VALUES ('Judith', 'Resnik', 60056978, '5-APR-49', 'Electrical Eng', 'F', 'Aeronautical Eng');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
+VALUES ('Sally', 'K', 'Ride', 14074600, '26-MAY-51', 'Physics', 'F', 'Comp Sci');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
+VALUES ('Jim', 'A', 'Lovell', 29190313, '25-MAR-28', 'Computer Eng', 'M', 'Aeronautical Eng');
+
+INSERT INTO student (fname, lname, stID, DOB, major, sex, minor)
+VALUES ('Albert', 'Einstein', 19214180, '14-MAR-79', 'Physics', 'M', 'Comp Sci');
+
+INSERT INTO student (fname, lname, stID, DOB, major, sex, minor)
+VALUES ('William', 'James', 08261910, '11-JAN-42', 'Philosophy', 'M', 'Comp Sci');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
+VALUES ('Elizabeth', 'M', 'Anscombe', 19582001, '18-MAR-1919', 'Philosophy', 'F', 'Comp Sci');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
+VALUES ('John', 'R', 'Deacon', 19711020, '19-AUG-51', 'Electrical Eng', 'M', 'Music');
