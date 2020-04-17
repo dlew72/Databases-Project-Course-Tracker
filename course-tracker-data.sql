@@ -1,11 +1,11 @@
 INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
-VALUES ('George', 'S', 'Long', '01918234', '04-FEB-00', 'CPE', 'M', 'Comp Sci');
+VALUES ('George', 'S', 'Long', '001918234', '04-FEB-00', 'CPE', 'M', 'Comp Sci');
 
 INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
-VALUES ('Danny', 'S', 'Lewis', '01696748', '23-MAY-00', 'CPE', 'M', 'Comp Sci');
+VALUES ('Danny', 'S', 'Lewis', '001696748', '23-MAY-00', 'CPE', 'M', 'Comp Sci');
 
 INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
-VALUES ('Andrew', 'K', 'Donofrio', '01635876', '02-JUN-99', 'Math', 'M', 'Comp Sci');
+VALUES ('Andrew', 'K', 'Donofrio', '001635876', '02-JUN-99', 'Math', 'M', 'Comp Sci');
 
 INSERT INTO department (dHead, dHeadID, dName, dID, dPhone)
 VALUES ('Mobasseri', 123456789, 'Comp/Elec Eng', '000000001', '6105194958');
@@ -263,4 +263,86 @@ INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('ECE Freshman Projects', 'ECE- 1205', 'Spring', '2020', '000000001');
 
 INSERT INTO course (cName, cID, season, year_, dptID)
-VALUES ('', , '', , 000000001);
+VALUES ('EGR Prog & Applic', 'ECE- 1620', 'Spring', '2020', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Electrical Circuit Fundamentals', 'ECE- 2030', 'Fall', '2019', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Electrical Circuit Fundamentals', 'ECE- 2030', 'Spring', '2020', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Electrical Circuit Fundamentals Lab', 'ECE- 2031', 'Spring', '2020', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Electrical Circuit Fundamentals Lab', 'ECE- 2031', 'Fall', '2019', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Fund Computer Engineering I', 'ECE- 2042', 'Fall', '2019', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Fund of Comp Engineering I Lab', 'ECE- 2043', 'Fall', '2019', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Fund Comp Engineering II', 'ECE- 2044', 'Spring', '2020', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Fund Comp Engineering II Lab', 'ECE- 2045', 'Spring', '2020', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Engr System Models & Control', 'ECE- 2290', 'Spring', '2020', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Fundamentals of MATLAB', 'ECE- 2409', 'Fall', '2019', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Embedded Systems I', 'ECE- 2430', 'Spring', '2020', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Embedded Systems I Lab', 'ECE- 2431', 'Spring', '2020', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Analog Electronics I', 'ECE- 2530', 'Spring', '2020', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Analog Electronics I Lab', 'ECE- 2531', 'Spring', '2020', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('C++, Algorithms & Data Struct', 'ECE- 2620', 'Fall', '2019', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Prof. Dev. Seminar', 'ECE- 2800', 'Fall', '2019', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Prof. Dev. Seminar', 'ECE- 2800', 'Spring', '2020', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Signal Processing', 'ECE- 3225', 'Fall', '2019', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Signals Lab', 'ECE- 3230', 'Fall', '2019', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Signals Lab', 'ECE- 3230', 'Spring', '2020', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Discrete Time Signals & System', 'ECE- 3245', 'Spring', '2020', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Embedded Systems II', 'ECE- 3430', 'Fall', '2019', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Computer Architecture', 'ECE- 3445', 'Fall', '2019', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Digital Electronics', 'ECE- 3450', 'Fall', '2019', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Computer and Network Security', 'ECE- 3476', 'Spring', '2020', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Analog Electronics II', 'ECE- 3530', 'Fall', '2019', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Analog Electronics II Lab', 'ECE- 3530', 'Fall', '2019', '000000001');
+
