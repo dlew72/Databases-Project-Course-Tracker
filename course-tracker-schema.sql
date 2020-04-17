@@ -83,5 +83,5 @@ CREATE TABLE classes (
     secNum  char(3),
     foreign key (stID) references student(stID),
     foreign key (secNum) references section(sNum),
-    primary key (stID, secNum, coID)
+    primary key (stID, secNum)
 );
