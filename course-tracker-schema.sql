@@ -80,9 +80,7 @@ DROP TABLE classes CASCADE CONSTRAINTS;
 CREATE TABLE classes (
     stID    char(9),
     secNum  char(3),
-    coID    char(9),
     foreign key (stID) references student(stID),
     foreign key (secNum) references section(sNum),
-    foreign key (coID) references course(cID),
     primary key (stID, secNum, coID)
 );
