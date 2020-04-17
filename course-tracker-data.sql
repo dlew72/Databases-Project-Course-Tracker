@@ -8,16 +8,16 @@ INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
 VALUES ('Andrew', 'K', 'Donofrio', '001635876', '02-JUN-99', 'Math', 'M', 'Comp Sci');
 
 INSERT INTO department (dHead, dHeadID, dName, dID, dPhone)
-VALUES ('Mobasseri', 123456789, 'Comp/Elec Eng', '000000001', '6105194958');
+VALUES ('Mobasseri', '123456789', 'Comp/Elec Eng', '000000001', '6105194958');
 
 INSERT INTO department (dHead, dHeadID, dName, dID, dPhone)
-VALUES ('Santhanam', 123456780, 'Mechanical Eng', '000000002', '6105194996');
+VALUES ('Santhanam', '123456780', 'Mechanical Eng', '000000002', '6105194996');
 
 INSERT INTO department (dHead, dHeadID, dName, dID, dPhone)
-VALUES ('Comolli', 123456700, 'Chemical Eng', '000000003', '6105197134');
+VALUES ('Comolli', '123456700', 'Chemical Eng', '000000003', '6105197134');
 
 INSERT INTO department (dHead, dHeadID, dName, dID, dPhone)
-VALUES ('Gross', 123456000, 'Civil Eng', '000000004', '6105195390');
+VALUES ('Gross', '123456000', 'Civil Eng', '000000004', '6105195390');
 
 INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
 VALUES ('Bijan', 'J', 'Mobasseri', '123456789', '12-MAR-51', 'M', '000000001');
