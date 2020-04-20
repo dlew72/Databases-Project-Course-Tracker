@@ -544,3 +544,102 @@ VALUES ('Biomechanics', 'ME - 5500', 'Fall', '2019', '000000002');
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('Engineering Economics', 'ME - 5600', 'Spring', '2020', '000000002');
 
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Civil Engineering Fundamentals', 'CEE- 1601', 'Spring', '2020', '000000004');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Mechanics I: Fund. Behavior', 'CEE- 2105', 'Fall', '2019', '000000004');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Mechanics I: Fund. Behavior', 'CEE- 2105', 'Spring', '2020', '000000004');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Mech II: Material Behavior', 'CEE- 2106', 'Spring', '2020', '000000004');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Transportation Engineering', 'CEE- 2211', 'Spring', '2020', '000000004');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Environmental Engr Science', 'CEE- 2311', 'Spring', '2020', '000000004');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Geology for Engineers', 'CEE- 2805', 'Fall', '2019', '000000004');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Mechanics III: Fluid Behavior', 'CEE- 3107', 'Fall', '2019', '000000004');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Water & Wastewater Treatment', 'CEE- 3321', 'Fall', '2019', '000000004');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Structural Analysis', 'CEE- 3401', 'Fall', '2019', '000000004');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Structural Steel Design', 'CEE- 3402', 'Spring', '2020', '000000004');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Hydraulic Egr & Hydrology', 'CEE- 3511', 'Spring', '2020', '000000004');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Engineering Economics', 'CEE- 3705', 'Fall', '2019', '000000004');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Soil Mechanics', 'CEE- 3801', 'Spring', '2020', '000000004');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Soil Mechanics Lab', 'CEE- 3901', 'Spring', '2020', '000000004');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Civil Egr Materials', 'CEE- 3902', 'Fall', '2019', '000000004');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Fluid Mechanics Laboratory', 'CEE- 3910', 'Fall', '2019', '000000004');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Hydraulic Egr & Hydrology Lab', 'CEE- 3913', 'Spring', '2020', '000000004');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Environmental Egr Lab', 'CEE- 3921', 'Fall', '2019', '000000004');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Graphical Communications', 'CEE- 3950', 'Spring', '2020', '000000004');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Transportation System Design', 'CEE- 4226', 'Fall', '2019', '000000004');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Solid & Hazardous Waste', 'CEE- 4331', 'Fall', '2019', '000000004');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Reinforced Concrete Design', 'CEE- 4404', 'Fall', '2019', '000000004');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Water Resources Egr Design', 'CEE- 4521', 'Fall', '2019', '000000004');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('CEE Capstone Design 1', 'CEE- 4601', 'Fall', '2019', '000000004');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('CEE Capstone Design 2', 'CEE- 4606', 'Spring', '2020', '000000004');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Selected Topics in CEE', 'CEE- 4607', 'Fall', '2019', '000000004');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Project & Constr Management', 'CEE- 4608', 'Spring', '2020', '000000004');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('CEE Special Topics', 'CEE- 4609', 'Fall', '2019', '000000004');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('CEE Undergraduate Research', 'CEE- 4612', 'Fall', '2019', '000000004');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('CEE Undergraduate Research', 'CEE- 4612', 'Spring', '2020', '000000004');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('CEE Service Learning Project', 'CEE- 4613', 'Spring', '2020', '000000004');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Foundation Design', 'CEE- 4801', 'Fall', '2019', '000000004');
+
