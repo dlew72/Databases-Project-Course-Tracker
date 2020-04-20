@@ -171,3 +171,60 @@ VALUES ('Bioengineering Lab Techniques', 'CHE- 5535', 'Spring', '2020', '0000000
 
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('Intro to Material Science', 'CHE- 5634', 'Spring', '2020', '000000003');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
+VALUES ('Johnny', 'B', 'Goode', 28365190, '20-APR-20', 'Electrical Eng', 'M', 'Music');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex)
+VALUES ('Wil', 'D', 'Cat', 68953826, '19-JUL-99', 'Computer Eng', 'M');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
+VALUES ('Phlip', 'R', 'Smith', 17923644, '9-AUG-10', 'Civil Eng', 'M', 'English');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
+VALUES ('George', 'G', 'Garson', 59126374, '31-OCT-06', 'Electrical Eng', 'M', 'Comp Sci');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
+VALUES ('Meredith', 'T', 'Burns', 85912637, '5-JUN-18', 'Mechanical Eng', 'F', 'Math');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
+VALUES ('Abigail', 'D', 'Howard', 48591263, '4-MAR-01', 'Chemical Eng', 'F', 'Communication');
+
+INSERT INTO student (fname, lname, stID, DOB, major, sex, minor)
+VALUES ('Billie', 'Eilish', 74859126, '1-JAN-00', 'Civil Eng', 'F', 'Music');
+
+INSERT INTO student (fname, lname, stID, DOB, major, sex, minor)
+VALUES ('Marta', 'Cabrera', 48396785, '5-JUN-19', 'Chemical Eng', 'F', 'Latin American Studies');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
+VALUES ('Indigo', 'S', 'Carey', 37485912, '27-MAY-05', 'Computer Eng', 'F', 'Irish Studies');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
+VALUES ('Sawyer', 'L', 'Sharbino', 63748591, '9-JUN-98', 'Chemical Eng', 'M', 'Psychology');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
+VALUES ('Lev', 'K', 'Cameron', 26374859, '17-NOV-03', 'Civil Eng', 'M', 'Sociology');
+
+INSERT INTO student (fname, lname, stID, DOB, major, sex, minor)
+VALUES ('James', 'Charles', 12637485, '25-DEC-19', 'Mechanical Eng', 'M', 'Comp Sci');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex)
+VALUES ('Nephets', 'Z', 'Sharer', 91263748, '7-JUN-08', 'Computer Eng', 'M');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
+VALUES ('Charli', 'S', 'DiAmelio', 85473291, '16-FEB-21', 'Electrical Eng', 'F', 'Physics');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
+VALUES ('Nabir', 'F', 'Sancan', 37543217, '20-FEB-04', 'Civil Eng', 'M', 'Biology');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
+VALUES ('Joey', 'A', 'Chestnut', 59612011, '25-NOV-83', 'Civil Eng', 'M', 'Culinary Arts');
+
+INSERT INTO student (fname, lname, stID, DOB, major, sex, minor)
+VALUES ('So', 'Li-Uhn', 42073215, '28-FEB-07', 'Computer Eng', 'F', 'Criminology');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
+VALUES ('Donald', 'J', 'Trump', 90909005, '30-MAY-45', 'Civil Eng', 'M', 'Economics');
+
+INSERT INTO student (fname, lname, stID, DOB, major, sex, minor)
+VALUES ('Addison', 'Rae', 00912357, '22-SEPT-00', 'Mechanical Eng', 'F', 'Computer Science');
