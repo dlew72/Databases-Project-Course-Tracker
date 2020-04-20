@@ -83,4 +83,4 @@ INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
 VALUES ('John', 'R', 'Deacon', 19711020, '19-AUG-51', 'Electrical Eng', 'M', 'Music');
 
 INSERT INTO course (cName, cID, season, year_, dptID)
-VALUES
+VALUES ('Intro Chemical Processes', 'CHE- 2031', 'Fall', '2019', '000000003');
