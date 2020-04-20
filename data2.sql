@@ -84,3 +84,90 @@ VALUES ('John', 'R', 'Deacon', 19711020, '19-AUG-51', 'Electrical Eng', 'M', 'Mu
 
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('Intro Chemical Processes', 'CHE- 2031', 'Fall', '2019', '000000003');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Heat Transfer', 'CHE- 3031', 'Fall', '2019', '000000003');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Thermodynamics II', 'CHE- 3131', 'Fall', '2019', '000000003');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Technical Communications', 'CHE- 3931', 'Fall', '2019', '000000003');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Process Design I', 'CHE- 4131', 'Fall', '2019', '000000003');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Process Modeling & Analysis', 'CHE- 4331', 'Fall', '2019', '000000003');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Senior Project Studio I', 'CHE- 4831', 'Fall', '2019', '000000003');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('ChemE Lab II', 'CHE- 4931', 'Fall', '2019', '000000003');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Prin of Air Pol Control', 'CHE- 5002', 'Fall', '2019', '000000003');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('TOP:Biochemical Data Analysis', 'CHE- 5332', 'Fall', '2019', '000000003');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Gene Therapy Methods & Research', 'CHE- 5530', 'Fall', '2019', '000000003');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Intro to Biotechnology', 'CHE- 5532', 'Fall', '2019', '000000003');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Polymer Sci and Engr', 'CHE- 5632', 'Fall', '2019', '000000003');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Alternative Energy', 'CHE- 5715', 'Fall', '2019', '000000003');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Spring', '2020', '000000003');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Material Balances', 'CHE- 1102', 'Spring', '2020', '000000003');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Chem Engr Thermo I', 'CHE- 2032', 'Spring', '2020', '000000003');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Fluid Mechanics', 'CHE- 2232', 'Spring', '2020', '000000003');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Mass Transfer', 'CHE- 3032', 'Spring', '2020', '000000003');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('ChemE Reactor Engineering I', 'CHE- 3332', 'Spring', '2020', '000000003');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('ChemE Lab I', 'CHE- 3932', 'Spring', '2020', '000000003');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Chemical Process Control', 'CHE- 4232', 'Spring', '2020', '000000003');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Process Modeling & Analysis', 'CHE- 4331', 'Spring', '2020', '000000003');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Senior Project Studio II', 'CHE- 4832', 'Spring', '2020', '000000003');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Equipment Design & Spec', 'CHE- 5032', 'Spring', '2020', '000000003');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Brewing Science & Tech', 'CHE- 5133', 'Spring', '2020', '000000003');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('TOP:Petroleum Engineering', 'CHE- 5332', 'Spring', '2020', '000000003');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Bioseparations', 'CHE- 5533', 'Spring', '2020', '000000003');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Bioengineering Lab Techniques', 'CHE- 5535', 'Spring', '2020', '000000003');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Intro to Material Science', 'CHE- 5634', 'Spring', '2020', '000000003');
