@@ -427,3 +427,120 @@ VALUES ('Elec Eng Research II', 'ECE- 5992', 'Fall', '2019', '000000001');
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('Elec Eng Research II', 'ECE- 5992', 'Spring', '2020', '000000001');
 
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Computer Program for Mech Engr', 'ME - 1205', 'Spring', '2020', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Statics', 'ME - 2100', 'Fall', '2019', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Dynamic Systems I', 'ME - 2101', 'Spring', '2020', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Mechanics of Materials', 'ME - 2103', 'Spring', '2020', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('M.E. Analysis & Design', 'ME - 2505', 'Fall', '2019', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('ME Laboratory I', 'ME - 2900', 'Spring', '2020', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Thermodynamics', 'ME - 3100', 'Spring', '2020', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Dynamic Systems II', 'ME - 3102', 'Fall', '2019', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Dynamic Systems III', 'ME - 3103', 'Spring', '2020', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Materials Science I', 'ME - 3300', 'Spring', '2020', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Manufacturing Engineering', 'ME - 3333', 'Spring', '2020', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Solid Mechanics & Design I', 'ME - 3402', 'Fall', '2019', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Solid Mechanics & Design II', 'ME - 3403', 'Spring', '2020', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Fluid Mechanics', 'ME - 3600', 'Fall', '2019', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('ME Laboratory II', 'ME - 3900', 'Spring', '2020', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Heat Transfer I', 'ME - 3950', 'Fall', '2019', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Dyanamic Systems Lab', 'ME - 4001', 'Fall', '2019', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Solid Mechanics Lab', 'ME - 4002', 'Fall', '2019', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Thermal Fluids Lab', 'ME - 4003', 'Fall', '2019', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Selected Topics in ME', 'ME - 5000', 'Spring', '2020', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('ME Undergraduate Research I', 'ME - 5001', 'Fall', '2019', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('ME Undergraduate Research I', 'ME - 5001', 'Spring', '2020', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('ME Undergraduate Research II', 'ME - 5002', 'Fall', '2019', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('ME Undergraduate Research II', 'ME - 5002', 'Spring', '2020', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Capstone Design I', 'ME - 5005', 'Fall', '2019', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Capstone Design II', 'ME - 5006', 'Spring', '2020', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Elements of Aerodynamics', 'ME - 5101', 'Spring', '2020', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Compressible Fluid Flow', 'ME - 5102', 'Fall', '2019', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Intro to Sustainable Energy', 'ME - 5130', 'Fall', '2019', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Intro to Finite Elements', 'ME - 5201', 'Fall', '2019', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Intro to Finite Elements', 'ME - 5201', 'Spring', '2020', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Flight Dynamics', 'ME - 5205', 'Spring', '2020', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Aircraft Design', 'ME - 5206', 'Spring', '2020', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Orbital Mechanics', 'ME - 5207', 'Fall', '2019', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Mechatronics', 'ME - 5411', 'Spring', '2020', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Introduction to Robotics', 'ME - 5421', 'Fall', '2019', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Advanced System Modeling', 'ME - 5441', 'Fall', '2019', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Biomechanics', 'ME - 5500', 'Fall', '2019', '000000002');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Engineering Economics', 'ME - 5600', 'Spring', '2020', '000000002');
+
