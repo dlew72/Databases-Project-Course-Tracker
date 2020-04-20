@@ -228,3 +228,39 @@ VALUES ('Donald', 'J', 'Trump', 90909005, '30-MAY-45', 'Civil Eng', 'M', 'Econom
 
 INSERT INTO student (fname, lname, stID, DOB, major, sex, minor)
 VALUES ('Addison', 'Rae', 00912357, '22-SEPT-00', 'Mechanical Eng', 'F', 'Computer Science');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
+VALUES ('Cody', 'R', 'Bellinger', 48679254, '27-JUL-93', 'Chemical Eng', 'M', 'Education');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
+VALUES ('Will', 'A', 'Smith', 26583942, '3-AUG-92', 'Economics', 'M', 'Comp Sci');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
+VALUES ('Corey', 'T', 'Seager', 53269812, '6-APR-90', 'Mechanical Eng', 'M', 'Math');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex)
+VALUES ('Joc', 'H', 'Pederson', 31312645, '6-FEB-90', 'Electrical Eng', 'M');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
+VALUES ('Dave', 'L', 'Roberts', 46835254, '6-MAR-71', 'Computer Eng', 'M', 'English');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
+VALUES ('Justin', 'M', 'Turner', 65328195, '3-JUN-14', 'Chemical Eng', 'M', 'History');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
+VALUES ('Matt', 'T', 'Stoney', 32891030, '8-APR-90', 'Chemical Eng', 'M', 'Biochemical Eng');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
+VALUES ('Dustin', 'L', 'May', 61853215, '14-DEC-93', 'Mechanical Eng', 'M', 'Aeronautical Eng');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
+VALUES ('Gavin', 'R', 'Lux', 84567210, '9-AUG-90', 'Civil Eng', 'M', 'Environmental Eng');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
+VALUES ('Walker', 'M', 'Buehler', 12389425, '3-JUN-90', 'Computer Eng', 'M', 'Comp Sci');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
+VALUES ('Kenley', 'F', 'Jansen', 61284594, '31-AUG-39', 'Mechanical Eng', 'M', 'Comp Sci');
+
+INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
+VALUES ('Mookie', 'T', 'Betts', 14658372, '12-DEC-80', 'Mechanical Eng', 'M', 'Statistics');
