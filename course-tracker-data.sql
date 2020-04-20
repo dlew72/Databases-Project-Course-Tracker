@@ -254,7 +254,7 @@ INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
 VALUES ('Andrea', 'L', 'Welker', '444444427', '05-JUN-62', 'F', '000000004');
 
 INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
-VALUES ('Wenqing', 'V', 'Xu', 444444428, '28-JUL-69', 'F', '000000004');
+VALUES ('Wenqing', 'V', 'Xu', '444444428', '28-JUL-69', 'F', '000000004');
 
 INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
 VALUES ('Joseph', 'R', 'Yost', '444444429', '27-OCT-61', 'M', '000000004');
@@ -345,4 +345,85 @@ VALUES ('Analog Electronics II', 'ECE- 3530', 'Fall', '2019', '000000001');
 
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('Analog Electronics II Lab', 'ECE- 3530', 'Fall', '2019', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Engineering Electromagnetics', 'ECE- 3690', 'Spring', '2020', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Eng Probability & Statistics', 'ECE- 3720', 'Fall', '2019', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Eng Probability & Statistics', 'ECE- 3720', 'Spring', '2020', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Electrical Communications', 'ECE- 3770', 'Spring', '2020', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Design Seminar - EE', 'ECE- 3970', 'Spring', '2020', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Design Seminar - CPE', 'ECE- 3971', 'Spring', '2020', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Computer Networks', 'ECE- 4470', 'Spring', '2020', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Intro. to Electric Energy Sys.', 'ECE- 4810', 'Fall', '2019', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Design Project - EE', 'ECE- 4970', 'Fall', '2019', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Design Project - CPE', 'ECE- 4971', 'Fall', '2019', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Design Project Report - EE', 'ECE- 4972', 'Fall', '2019', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Design Project Report - EE', 'ECE- 4972', 'Spring', '2020', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Design Project Report - CPE', 'ECE- 4973', 'Fall', '2019', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Design Project Report - CPE', 'ECE- 4973', 'Spring', '2020', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Biomedical Instrumentation', 'ECE- 5250', 'Fall', '2019', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Biomedical Signal Processing', 'ECE- 5251', 'Spring', '2020', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Control System Design', 'ECE- 5390', 'Spring', '2020', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Applied Machine Learning', 'ECE- 5400', 'Fall', '2019', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Microcontrollers & Applic', 'ECE- 5450', 'Fall', '2019', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Eng Secure Cyber-Physical Sys', 'ECE- 5478', 'Fall', '2019', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Microwave Networks', 'ECE- 5690', 'Fall', '2019', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('RF Circuit Design', 'ECE- 5730', 'Spring', '2020', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Organs-on-a-Chip', 'ECE- 5770', 'Spring', '2020', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Elec Eng Research I', 'ECE- 5991', 'Fall', '2019', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Elec Eng Research I', 'ECE- 5991', 'Spring', '2020', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Elec Eng Research II', 'ECE- 5992', 'Fall', '2019', '000000001');
+
+INSERT INTO course (cName, cID, season, year_, dptID)
+VALUES ('Elec Eng Research II', 'ECE- 5992', 'Spring', '2020', '000000001');
 
