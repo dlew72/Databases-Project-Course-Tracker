@@ -55,7 +55,8 @@ CREATE TABLE section (
   roomNum     varchar2(5),
   bldg        varchar2(20),
   sNum        char(3),
-  profID     char(9),
+  profID      char(9),
+  courseID    char(9),
   primary key (sNum)
   );
   
