@@ -84,7 +84,7 @@ CREATE TABLE classes (
     stID    char(9),
     secNum  char(3),
     courseID char(9),
-    season varchar(5),
+    season varchar2(5),
     foreign key (stID) references student(stID),
     foreign key (secNum, courseID, season) references section(sNum, courseID, season),
     primary key (stID, secNum)
