@@ -1,5 +1,7 @@
 SET DEFINE OFF;
 
+
+
 --Add the students
 INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
 VALUES ('George', 'S', 'Long', '001918234', '04-FEB-00', 'CPE', 'M', 'Comp Sci');
