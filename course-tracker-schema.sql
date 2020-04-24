@@ -40,7 +40,7 @@ CREATE TABLE course (
   season   varchar2(6),
   year_    char(4),
   dptID    char(9),
-  primary key (cID)
+  primary key (cID, season)
   );
   
 DROP TABLE semester CASCADE CONSTRAINTS;
@@ -55,6 +55,7 @@ CREATE TABLE section (
   roomNum     varchar2(5),
   bldg        varchar2(20),
   sNum        char(3),
+  season   varchar2(6),
   profID      char(9),
   courseID    char(9),
   primary key (sNum)
@@ -67,7 +68,7 @@ ALTER TABLE course ADD (
 
 ALTER TABLE section ADD (
     foreign key (profID) references professor(pID),
-    foreign key (courseID) references course(cID)
+    foreign key (courseID, season) references course(cID, season)
 );
 
 ALTER TABLE professor ADD (
