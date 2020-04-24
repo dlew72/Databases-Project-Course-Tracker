@@ -1106,7 +1106,7 @@ INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
 VALUES ('Mookie', 'T', 'Betts', 14658372, '12-DEC-80', 'Mechanical Eng', 'M', 'Statistics');
 
 
---Add students into 
+--Add students into CHE-2031
 INSERT INTO classes (stID, secNum, courseID, season)
 VALUES ('001696748', '001', 'CHE- 2031', 'Fall');
 
