@@ -1066,6 +1066,9 @@ VALUES ('Donald', 'J', 'Trump', 90909005, '30-MAY-45', 'Civil Eng', 'M', 'Econom
 INSERT INTO student (fname, lname, stID, DOB, major, sex, minor)
 VALUES ('Addison', 'Rae', 00912357, '22-SEP-00', 'Mechanical Eng', 'F', 'Computer Science');
 
+INSERT INTO student (fname, lname, stID, DOB, major, sex, minor)
+VALUES ('Madison', 'Smith', 00912358, '22-SEP-01', 'Mechanical Eng', 'F', 'Computer Science');
+
 INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
 VALUES ('Cody', 'R', 'Bellinger', 48679254, '27-JUL-93', 'Chemical Eng', 'M', 'Education');
 
