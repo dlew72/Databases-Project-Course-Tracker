@@ -58,7 +58,7 @@ CREATE TABLE section (
   season   varchar2(6),
   profID      char(9),
   courseID    char(9),
-  primary key (sNum, courseID)
+  primary key (sNum, courseID, season)
   );
   
 ALTER TABLE course ADD (
@@ -84,7 +84,8 @@ CREATE TABLE classes (
     stID    char(9),
     secNum  char(3),
     courseID char(9),
+    season varchar(5),
     foreign key (stID) references student(stID),
-    foreign key (secNum, courseID) references section(sNum, courseID),
+    foreign key (secNum, courseID, season) references section(sNum, courseID, season),
     primary key (stID, secNum)
 );
