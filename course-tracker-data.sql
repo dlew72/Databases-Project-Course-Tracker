@@ -1,3 +1,6 @@
+SET DEFINE OFF;
+
+--Add the students
 INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
 VALUES ('George', 'S', 'Long', '001918234', '04-FEB-00', 'CPE', 'M', 'Comp Sci');
 
@@ -7,6 +10,21 @@ VALUES ('Danny', 'S', 'Lewis', '001696748', '23-MAY-00', 'CPE', 'M', 'Comp Sci')
 INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
 VALUES ('Andrew', 'K', 'Donofrio', '001635876', '02-JUN-99', 'Math', 'M', 'Comp Sci');
 
+
+--Add the department heads as professors
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex)
+VALUES ('Shawn', 'P', 'Gross', '123456000', '17-NOV-74', 'M');
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex)
+VALUES ('Bijan', 'J', 'Mobasseri', '123456789', '12-MAR-51', 'M');
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex)
+VALUES ('Sridhar', 'O', 'Santhanam', '123456780', '09-MAY-68', 'M');
+
+INSERT INTO professor (fname, minit, lname, pID, DOB, sex)
+VALUES ('Noelle', 'C', 'Comolli', '123456700', '03-DEC-59', 'F');
+
+--Add the department heads
 INSERT INTO department (dHead, dHeadID, dName, dID, dPhone)
 VALUES ('Mobasseri', '123456789', 'Comp/Elec Eng', '000000001', '6105194958');
 
@@ -19,9 +37,20 @@ VALUES ('Comolli', '123456700', 'Chemical Eng', '000000003', '6105197134');
 INSERT INTO department (dHead, dHeadID, dName, dID, dPhone)
 VALUES ('Gross', '123456000', 'Civil Eng', '000000004', '6105195390');
 
-INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
-VALUES ('Bijan', 'J', 'Mobasseri', '123456789', '12-MAR-51', 'M', '000000001');
+--Set the department head professors to department heads
+UPDATE professor
+SET dptID = '000000001' WHERE pID = '123456789';
 
+UPDATE professor
+SET dptID = '000000002' WHERE pID = '123456780';
+
+UPDATE professor
+SET dptID = '000000003' WHERE pID = '123456700';
+
+UPDATE professor
+SET dptID = '000000004' WHERE pID = '123456000';
+
+--Add the rest of the professors
 INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
 VALUES ('Moeness', 'N', 'Amin', '111111111', '18-DEC-65', 'M', '000000001');
 
@@ -81,9 +110,6 @@ VALUES ('Rosalind', 'A', 'Wynne', '111111129', '07-MAY-79', 'F', '000000001');
 
 INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
 VALUES ('Jiafeng', 'Y', 'Xie', '111111130', '22-MAR-78', 'M', '000000001');
-
-INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
-VALUES ('Sridhar', 'O', 'Santhanam', '123456780', '09-MAY-68', 'M', '000000002');
 
 INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
 VALUES ('Hashem', 'S', 'Ashrafiuon', '222222211', '16-MAY-62', 'M', '000000002');
@@ -155,9 +181,6 @@ INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
 VALUES ('Qianhong', 'W', 'Wu', '222222233', '29-APR-71', 'M', '000000002');
 
 INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
-VALUES ('Noelle', 'C', 'Comolli', '123456700', '03-DEC-59', 'F', '000000003');
-
-INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
 VALUES ('Charles', 'C', 'Coe', '333333311', '12-FEB-76', 'M', '000000003');
 
 INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
@@ -198,9 +221,6 @@ VALUES ('Peter', 'M', 'Staffeld', '333333323', '27-FEB-74', 'M', '000000003');
 
 INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
 VALUES ('Randy', 'D', 'Weinstein', '333333324', '14-MAY-57', 'M', '000000003');
-
-INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
-VALUES ('Shawn', 'P', 'Gross', '123456000', '17-NOV-74', 'M', '000000004');
 
 INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
 VALUES ('David', 'S', 'Dinehart', '444444411', '30-OCT-76', 'M', '000000004');
@@ -259,6 +279,11 @@ VALUES ('Wenqing', 'V', 'Xu', '444444428', '28-JUL-69', 'F', '000000004');
 INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
 VALUES ('Joseph', 'R', 'Yost', '444444429', '27-OCT-61', 'M', '000000004');
 
+
+--Create the semester
+
+
+--Add the courses
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('ECE Freshman Projects', 'ECE- 1205', 'Spring', '2020', '000000001');
 
