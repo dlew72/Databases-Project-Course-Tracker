@@ -1,3 +1,5 @@
+SET DEFINE OFF;
+
 INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
 VALUES ('Herbert', 'C', 'Hoover', 34293433, '10-AUG-74', 'Mechanical Eng', 'M', 'Geology');
 
@@ -5,7 +7,7 @@ INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
 VALUES ('Mae', 'C', 'Jemison', 01903023, '17-OCT-56', 'Chemical Eng', 'F', 'Africana Studies');
 
 INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
-VALUES ('Hedy', 'E', 'Lamarr', 1114012000, '9-NOV-14', 'Electrical Eng', 'F', 'Theater');
+VALUES ('Hedy', 'E', 'Lamarr', 11140100, '9-NOV-14', 'Electrical Eng', 'F', 'Theater');
 
 INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
 VALUES ('Neil', 'A', 'Armstrong', 08141230, '5-AUG-30', 'Mechanical Eng', 'M', 'Aeronautical Eng');
