@@ -373,7 +373,7 @@ INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('Analog Electronics II', 'ECE- 3530', 'Fall', '2019', '000000001');
 
 INSERT INTO course (cName, cID, season, year_, dptID)
-VALUES ('Analog Electronics II Lab', 'ECE- 3530', 'Spring', '2020', '000000001');
+VALUES ('Analog Electronics II Lab', 'ECE- 3531', 'Fall', '2019', '000000001');
 
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('Engineering Electromagnetics', 'ECE- 3690', 'Spring', '2020', '000000001');
