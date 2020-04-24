@@ -1104,3 +1104,7 @@ VALUES ('Kenley', 'F', 'Jansen', 61284594, '31-AUG-39', 'Mechanical Eng', 'M', '
 
 INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
 VALUES ('Mookie', 'T', 'Betts', 14658372, '12-DEC-80', 'Mechanical Eng', 'M', 'Statistics');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ('001696748', '001', 'CHE- 2031', 'Fall');
+
