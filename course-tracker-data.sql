@@ -890,10 +890,10 @@ INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('Material Balances', 'CHE- 1102', 'Spring', '2020', '000000003');
 
 INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
-VALUES ('218', 'White', '001', 'Fall', '333333317', 'CHE- 1102');
+VALUES ('218', 'White', '001', 'Spring', '333333317', 'CHE- 1102');
 
 INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
-VALUES ('218', 'White', '002', 'Fall', '333333317', 'CHE- 1102');
+VALUES ('218', 'White', '002', 'Spring', '333333317', 'CHE- 1102');
 
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('Chem Engr Thermo I', 'CHE- 2032', 'Spring', '2020', '000000003');
