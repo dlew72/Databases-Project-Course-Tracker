@@ -58,7 +58,7 @@ CREATE TABLE section (
   season   varchar2(6),
   profID      char(9),
   courseID    char(9),
-  primary key (sNum)
+  primary key (sNum, courseID)
   );
   
 ALTER TABLE course ADD (
@@ -83,7 +83,8 @@ DROP TABLE classes CASCADE CONSTRAINTS;
 CREATE TABLE classes (
     stID    char(9),
     secNum  char(3),
+    courseID char(9),
     foreign key (stID) references student(stID),
-    foreign key (secNum) references section(sNum),
+    foreign key (secNum, courseID) references section(sNum, courseID),
     primary key (stID, secNum)
 );
