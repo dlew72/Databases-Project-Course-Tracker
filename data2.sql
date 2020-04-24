@@ -162,3 +162,105 @@ VALUES ('215', 'Tolentine', '001', 'Spring', '111111114', 'ECE- 3476');
 
 INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
 VALUES ('427A', 'Tolentine', '001', 'Fall', '111111120', 'ECE- 3530');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('206', 'CEER', '001', 'Fall', '111111120', 'ECE- 3531');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('206', 'CEER', '002', 'Fall', '111111112', 'ECE- 3531');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('417', 'Tolentine', '001', 'Spring', '111111115', 'ECE- 3690');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('305', 'Tolentine', '001', 'Fall', '111111121', 'ECE- 3720');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('316', 'Tolentine', '001', 'Spring', '111111121', 'ECE- 3720');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('417', 'Tolentine', '001', 'Spring', '111111127', 'ECE- 3770');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('001', 'CEER', '001', 'Spring', '111111126', 'ECE- 3970');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('001', 'CEER', '001', 'Spring', '111111126', 'ECE- 3971');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('217', 'Tolentine', '001', 'Spring', '111111122', 'ECE- 4470');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('217', 'Tolentine', '002', 'Spring', '111111122', 'ECE- 4470');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('417', 'Tolentine', '001', 'Fall', '111111112', 'ECE- 4810');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('001', 'CEER', '001', 'Fall', '111111119', 'ECE- 4970');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('001', 'CEER', '002', 'Fall', '111111125', 'ECE- 4970');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('001', 'CEER', '003', 'Fall', '111111116', 'ECE- 4970');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('001', 'CEER', '001', 'Fall', '111111126', 'ECE- 4971');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('001', 'CEER', '002', 'Fall', '111111122', 'ECE- 4971');
+
+INSERT INTO section (sNum, season, profID, courseID)
+VALUES ('001', 'Fall', '111111119', 'ECE- 4972');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('001', 'CEER', '001', 'Spring', '111111119', 'ECE- 4972');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('001', 'CEER', '001', 'Spring', '111111119', 'ECE- 4973');
+
+INSERT INTO section (sNum, season, profID, courseID)
+VALUES ('001', 'Fall', '111111122', 'ECE- 4973');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('212', 'CEER', '001', 'Fall', '111111116', 'ECE- 5250');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('212', 'CEER', '001', 'Spring', '111111116', 'ECE- 5251');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('214', 'Tolentine', '001', 'Spring', '111111121', 'ECE- 5390');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('418', 'Tolentine', '001', 'Fall', '111111117', 'ECE- 5400');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('426', 'Tolentine', '100', 'Fall', '111111117', 'ECE- 5450');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('427A', 'Tolentine', '001', 'Fall', '111111126', 'ECE- 5478');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('427A', 'Tolentine', '001', 'Fall', '111111112', 'ECE- 5690');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('417', 'Tolentine', '001', 'Spring', '111111115', 'ECE- 5730');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('212', 'CEER', '001', 'Spring', '111111129', 'ECE- 5770');
+
+INSERT INTO section (sNum, season, profID, courseID)
+VALUES ('001', 'Fall', '111111125', 'ECE- 5991');
+
+INSERT INTO section (sNum, season, profID, courseID)
+VALUES ('001', 'Spring', '111111129', 'ECE- 5991');
+
+INSERT INTO section (sNum, season, profID, courseID)
+VALUES ('002', 'Spring', '111111116', 'ECE- 5991');
+
+INSERT INTO section (sNum, season, courseID)
+VALUES ('001', 'Fall', 'ECE- 5992');
+
+INSERT INTO section (sNum, season, courseID)
+VALUES ('001', 'Spring', 'ECE- 5992');
