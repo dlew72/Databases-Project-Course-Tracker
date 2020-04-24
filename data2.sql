@@ -85,92 +85,254 @@ VALUES ('John', 'R', 'Deacon', 19711020, '19-AUG-51', 'Electrical Eng', 'M', 'Mu
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('Intro Chemical Processes', 'CHE- 2031', 'Fall', '2019', '000000003');
 
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('218', 'White', '001', 'Fall', '333333317', 'CHE- 2031');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('218', 'White', '002', 'Fall', '333333317', 'CHE- 2031');
+
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('Heat Transfer', 'CHE- 3031', 'Fall', '2019', '000000003');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('218', 'White', '001', 'Fall', '333333314', 'CHE- 3031');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('218', 'White', '002', 'Fall', '333333316', 'CHE- 3031');
 
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('Thermodynamics II', 'CHE- 3131', 'Fall', '2019', '000000003');
 
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('104', 'CEER', '001' 'Fall', '333333319', 'CHE- 3131');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('104', 'CEER', '002' 'Fall', '333333319', 'CHE- 3131');
+
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('Technical Communications', 'CHE- 3931', 'Fall', '2019', '000000003');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('218', 'White', '001' 'Fall', '333333323', 'CHE- 3931');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('218', 'White', '002' 'Fall', '333333323', 'CHE- 3931');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('120', 'White', '003' 'Fall', '333333323', 'CHE- 3931');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('120', 'White', '004' 'Fall', '333333323', 'CHE- 3931');
 
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('Process Design I', 'CHE- 4131', 'Fall', '2019', '000000003');
 
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('324', 'White', '001' 'Fall', '333333314', 'CHE- 4131');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('324', 'White', '002' 'Fall', '333333314', 'CHE- 4131');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('324', 'White', '003' 'Fall', '333333314', 'CHE- 4131');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('324', 'White', '004' 'Fall', '333333314', 'CHE- 4131');
+
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('Process Modeling & Analysis', 'CHE- 4331', 'Fall', '2019', '000000003');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('120', 'White', '001' 'Fall', '333333322', 'CHE- 4331');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('120', 'White', '002' 'Fall', '333333322', 'CHE- 4331');
 
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('Senior Project Studio I', 'CHE- 4831', 'Fall', '2019', '000000003');
 
+INSERT INTO section (sNum, season, profID, courseID)
+VALUES ('001' 'Fall', '123456700', 'CHE- 4831');
+
+INSERT INTO section (sNum, season, profID, courseID)
+VALUES ('002' 'Fall', '123456700', 'CHE- 4831');
+
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('ChemE Lab II', 'CHE- 4931', 'Fall', '2019', '000000003');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('105', 'ChmEgr', '001' 'Fall', '333333318', 'CHE- 4931');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('105', 'ChmEgr', '002' 'Fall', '333333318', 'CHE- 4931');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('105', 'ChmEgr', '003' 'Fall', '333333318', 'CHE- 4931');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('105', 'ChmEgr', '004' 'Fall', '333333318', 'CHE- 4931');
 
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('Prin of Air Pol Control', 'CHE- 5002', 'Fall', '2019', '000000003');
 
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('120', 'White', '001' 'Fall', '333333319', 'CHE- 5002');
+
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('TOP:Biochemical Data Analysis', 'CHE- 5332', 'Fall', '2019', '000000003');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('218', 'White', '001' 'Fall', '333333313', 'CHE- 5332');
 
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('Gene Therapy Methods & Research', 'CHE- 5530', 'Fall', '2019', '000000003');
 
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('120', 'White', '001' 'Fall', '333333312', 'CHE- 5530');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('120', 'White', '002' 'Fall', '333333312', 'CHE- 5530');
+
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('Intro to Biotechnology', 'CHE- 5532', 'Fall', '2019', '000000003');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('120', 'White', '001' 'Fall', '333333315', 'CHE- 5532');
 
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('Polymer Sci and Engr', 'CHE- 5632', 'Fall', '2019', '000000003');
 
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('116', 'White', '100' 'Fall', '333333315', 'CHE- 5632'); --not the actual professor because Donald Joye is not in database
+
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('Alternative Energy', 'CHE- 5715', 'Fall', '2019', '000000003');
 
-INSERT INTO course (cName, cID, season, year_, dptID)
-VALUES ('Spring', '2020', '000000003');
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('116', 'White', '001' 'Fall', '333333311', 'CHE- 5715');
 
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('Material Balances', 'CHE- 1102', 'Spring', '2020', '000000003');
 
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('218', 'White', '001' 'Fall', '333333317', 'CHE- 1102');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('218', 'White', '002' 'Fall', '333333317', 'CHE- 1102');
+
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('Chem Engr Thermo I', 'CHE- 2032', 'Spring', '2020', '000000003');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('218', 'White', '001' 'Spring', '333333316', 'CHE- 2032');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('218', 'White', '002' 'Spring', '333333316', 'CHE- 2032');
 
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('Fluid Mechanics', 'CHE- 2232', 'Spring', '2020', '000000003');
 
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('116', 'White', '001' 'Spring', '333333319', 'CHE- 2232');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('116', 'White', '002' 'Spring', '333333319', 'CHE- 2232');
+
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('Mass Transfer', 'CHE- 3032', 'Spring', '2020', '000000003');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('218', 'White', '001' 'Spring', '333333323', 'CHE- 3032');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('218', 'White', '002' 'Spring', '333333321', 'CHE- 3032');
 
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('ChemE Reactor Engineering I', 'CHE- 3332', 'Spring', '2020', '000000003');
 
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('116', 'White', '001' 'Spring', '333333319', 'CHE- 3332');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('116', 'White', '002' 'Spring', '333333318', 'CHE- 3332');
+
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('ChemE Lab I', 'CHE- 3932', 'Spring', '2020', '000000003');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('105', 'ChmEgr', '001' 'Spring', '333333314', 'CHE- 3932');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('105', 'ChmEgr', '002' 'Spring', '333333316', 'CHE- 3932');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('105', 'ChmEgr', '003' 'Spring', '333333320', 'CHE- 3932');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('105', 'ChmEgr', '004' 'Spring', '333333323', 'CHE- 3932');
 
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('Chemical Process Control', 'CHE- 4232', 'Spring', '2020', '000000003');
 
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('120', 'White', '001' 'Spring', '333333313', 'CHE- 4232');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('120', 'White', '002' 'Spring', '333333313', 'CHE- 4232');
+
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('Process Modeling & Analysis', 'CHE- 4331', 'Spring', '2020', '000000003');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('115', 'White', '100' 'Spring', '333333322', 'CHE- 4331');
 
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('Senior Project Studio II', 'CHE- 4832', 'Spring', '2020', '000000003');
 
+INSERT INTO section (sNum, season, profID, courseID)
+VALUES ('001' 'Spring', '333333314', 'CHE- 4832');
+
+INSERT INTO section (sNum, season, profID, courseID)
+VALUES ('002' 'Spring', '333333319', 'CHE- 4832');
+
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('Equipment Design & Spec', 'CHE- 5032', 'Spring', '2020', '000000003');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('120', 'White', '001' 'Spring', '333333323', 'CHE- 5032');
 
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('Brewing Science & Tech', 'CHE- 5133', 'Spring', '2020', '000000003');
 
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('218', 'White', '001' 'Spring', '333333322', 'CHE- 5133');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('218', 'White', '002' 'Spring', '333333322', 'CHE- 5133');
+
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('TOP:Petroleum Engineering', 'CHE- 5332', 'Spring', '2020', '000000003');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('120', 'White', '001' 'Spring', '333333314', 'CHE- 5332');
 
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('Bioseparations', 'CHE- 5533', 'Spring', '2020', '000000003');
 
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('116', 'White', '001' 'Spring', '333333315', 'CHE- 5533');
+
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('Bioengineering Lab Techniques', 'CHE- 5535', 'Spring', '2020', '000000003');
 
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('116', 'White', '001' 'Spring', '333333312', 'CHE- 5535');
+
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('Intro to Material Science', 'CHE- 5634', 'Spring', '2020', '000000003');
+
+INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
+VALUES ('218', 'White', '001' 'Spring', '333333320', 'CHE- 5634');
 
 INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
 VALUES ('Johnny', 'B', 'Goode', 28365190, '20-APR-20', 'Electrical Eng', 'M', 'Music');
