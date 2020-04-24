@@ -281,7 +281,11 @@ VALUES ('Joseph', 'R', 'Yost', '444444429', '27-OCT-61', 'M', '000000004');
 
 
 --Create the semester
+INSERT INTO semester (season, year_)
+VALUES ('Fall', 2019);
 
+INSERT INTO semester (season, year_)
+VALUES ('Spring', 2020);
 
 --Add the courses
 INSERT INTO course (cName, cID, season, year_, dptID)
