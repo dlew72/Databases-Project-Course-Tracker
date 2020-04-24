@@ -66,7 +66,7 @@ ALTER TABLE course ADD (
 );
 
 ALTER TABLE section ADD (
-    foreign key (profID) references professor(pID)
+    foreign key (profID) references professor(pID),
     foreign key (courseID) references course(cID)
 );
 
