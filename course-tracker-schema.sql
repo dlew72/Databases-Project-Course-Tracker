@@ -87,5 +87,5 @@ CREATE TABLE classes (
     season varchar2(5),
     foreign key (stID) references student(stID),
     foreign key (secNum, courseID, season) references section(sNum, courseID, season),
-    primary key (stID, secNum)
+    primary key (stID, secNum, courseID)
 );
