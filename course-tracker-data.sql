@@ -1769,3 +1769,40 @@ VALUES ('416', 'Tolentine', '001', 'Fall', '444444416', 'CEE- 4801');
 
 INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
 VALUES ('416', 'Tolentine', '002', 'Fall', '444444416', 'CEE- 4801');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 28365190, '001', 'ECE- 1620' , 'Spring');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 68953826, '001', 'ECE- 1620' , 'Spring');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 59126374, '001', 'ECE- 1620' , 'Spring');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 37485912, '001', 'ECE- 1620' , 'Spring');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 91263748, '001', 'ECE- 1620' , 'Spring');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 85473291, '001', 'ECE- 1620' , 'Spring');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 42073215, '002', 'ECE- 1620' , 'Spring');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 26583942, '002', 'ECE- 1620' , 'Spring');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 31312645, '002', 'ECE- 1620' , 'Spring');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 46835254, '002', 'ECE- 1620' , 'Spring');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 12389425, '002', 'ECE- 1620' , 'Spring');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 61284594, '002', 'ECE- 1620' , 'Spring');
+
