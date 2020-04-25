@@ -1806,3 +1806,24 @@ VALUES ( 12389425, '002', 'ECE- 1620' , 'Spring');
 INSERT INTO classes (stID, secNum, courseID, season)
 VALUES ( 61284594, '002', 'ECE- 1620' , 'Spring');
 
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 61284594, '001', 'ECE- 2030' , 'Spring');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 31312645, '001', 'ECE- 2030' , 'Spring');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 26583942, '001', 'ECE- 2030' , 'Spring');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 85473291, '001', 'ECE- 2030' , 'Spring');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 68953826, '001', 'ECE- 2030' , 'Spring');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 11140100, '001', 'ECE- 2030' , 'Spring');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 12151152, '001', 'ECE- 2030' , 'Spring');
+
