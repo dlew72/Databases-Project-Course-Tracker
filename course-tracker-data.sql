@@ -1944,3 +1944,42 @@ VALUES ( 61284594, '002', 'ME - 3100' , 'Spring');
 INSERT INTO classes (stID, secNum, courseID, season)
 VALUES ( 14658372, '001', 'ME - 3100' , 'Spring');
 
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 34293433, '001', 'ME - 3300' , 'Spring');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 08141230, '001', 'ME - 3300' , 'Spring');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 08251976, '002', 'ME - 3300' , 'Spring');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 04520519, '002', 'ME - 3300' , 'Spring');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 28721275, '001', 'ME - 3300' , 'Spring');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 85912637, '001', 'ME - 3300' , 'Spring');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 12637485, '002', 'ME - 3300' , 'Spring');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 00912357, '002', 'ME - 3300' , 'Spring');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 00912358, '001', 'ME - 3300' , 'Spring');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 53269812, '001', 'ME - 3300' , 'Spring');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 61853215, '002', 'ME - 3300' , 'Spring');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 61284594, '002', 'ME - 3300' , 'Spring');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 14658372, '001', 'ME - 3300' , 'Spring');
+
