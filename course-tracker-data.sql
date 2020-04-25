@@ -1827,3 +1827,42 @@ VALUES ( 11140100, '001', 'ECE- 2030' , 'Spring');
 INSERT INTO classes (stID, secNum, courseID, season)
 VALUES ( 12151152, '001', 'ECE- 2030' , 'Spring');
 
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 12151152, '001', 'ECE- 2409' , 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 85473291, '001', 'ECE- 2409' , 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 31312645, '001', 'ECE- 2409' , 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 26583942, '001', 'ECE- 2409' , 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 37485912, '001', 'ECE- 2409' , 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 28365190, '002', 'ECE- 2409' , 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 06011955, '002', 'ECE- 2409' , 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 17567143, '002', 'ECE- 2409' , 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 12961192, '002', 'ECE- 2409' , 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 24681357, '002', 'ECE- 2409' , 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 60056978, '002', 'ECE- 2409' , 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 29190313, '002', 'ECE- 2409' , 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ( 19711020, '002', 'ECE- 2409' , 'Fall');
+
