@@ -19,7 +19,7 @@ CREATE TABLE professor (
   pID      char(9),
   DOB      date,
   sex      char,
-  dptID    char(9),
+  dptID    char(2),
   primary key (pID)
 );
 
@@ -39,7 +39,7 @@ CREATE TABLE course (
   cID      char(9),
   season   varchar2(6),
   year_    char(4),
-  dptID    char(9),
+  dptID    char(2),
   primary key (cID, season)
   );
   
