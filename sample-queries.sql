@@ -22,7 +22,7 @@ SELECT * FROM SECTION;
 
 
 --Extra useful queries:
---See which classes a student is taking
+--See which sections a student is enrolled in
 SELECT SECNUM, COURSEID FROM CLASSES
 WHERE STID = 28365190;
 
