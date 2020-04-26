@@ -1116,6 +1116,33 @@ VALUES ('65328195', '001', 'CHE- 2031', 'Fall');
 INSERT INTO classes (stID, secNum, courseID, season)
 VALUES ('32891030', '001', 'CHE- 2031', 'Fall');
 
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ('01903023', '001', 'CHE- 2031', 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ('03111957', '001', 'CHE- 2031', 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ('27197870', '001', 'CHE- 2031', 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ('12000815', '002', 'CHE- 2031', 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ('07111867', '002', 'CHE- 2031', 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ('48396785', '002', 'CHE- 2031', 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ('48591263', '002', 'CHE- 2031', 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ('63748591', '002', 'CHE- 2031', 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ('48679254', '002', 'CHE- 2031', 'Fall');
+
 INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
 VALUES ('310A', 'Tolentine', '001', 'Spring', '111111113', 'ECE- 1205');
 
@@ -2054,5 +2081,7 @@ VALUES ( 17151783, '002', 'CEE- 3107' , 'Fall');
 
 INSERT INTO classes (stID, secNum, courseID, season)
 VALUES ( 17923644, '001', 'CEE- 3107' , 'Fall');
+
+
 
 
