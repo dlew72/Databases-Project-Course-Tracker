@@ -1,3 +1,4 @@
+--View everything from a given table:
 --View all information about students
 SELECT * FROM STUDENT;
 
@@ -18,3 +19,5 @@ SELECT * FROM CLASSES;
 
 --View all information about sections
 SELECT * FROM SECTION;
+
+
