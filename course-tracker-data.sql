@@ -1105,44 +1105,6 @@ VALUES ('Kenley', 'F', 'Jansen', 61284594, '31-AUG-39', 'Mechanical Eng', 'M', '
 INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
 VALUES ('Mookie', 'T', 'Betts', 14658372, '12-DEC-80', 'Mechanical Eng', 'M', 'Statistics');
 
-
---Add students into CHE-2031
-INSERT INTO classes (stID, secNum, courseID, season)
-VALUES ('001696748', '001', 'CHE- 2031', 'Fall');
-
-INSERT INTO classes (stID, secNum, courseID, season)
-VALUES ('65328195', '001', 'CHE- 2031', 'Fall');
-
-INSERT INTO classes (stID, secNum, courseID, season)
-VALUES ('32891030', '001', 'CHE- 2031', 'Fall');
-
-INSERT INTO classes (stID, secNum, courseID, season)
-VALUES ('01903023', '001', 'CHE- 2031', 'Fall');
-
-INSERT INTO classes (stID, secNum, courseID, season)
-VALUES ('03111957', '001', 'CHE- 2031', 'Fall');
-
-INSERT INTO classes (stID, secNum, courseID, season)
-VALUES ('27197870', '001', 'CHE- 2031', 'Fall');
-
-INSERT INTO classes (stID, secNum, courseID, season)
-VALUES ('12000815', '002', 'CHE- 2031', 'Fall');
-
-INSERT INTO classes (stID, secNum, courseID, season)
-VALUES ('07111867', '002', 'CHE- 2031', 'Fall');
-
-INSERT INTO classes (stID, secNum, courseID, season)
-VALUES ('48396785', '002', 'CHE- 2031', 'Fall');
-
-INSERT INTO classes (stID, secNum, courseID, season)
-VALUES ('48591263', '002', 'CHE- 2031', 'Fall');
-
-INSERT INTO classes (stID, secNum, courseID, season)
-VALUES ('63748591', '002', 'CHE- 2031', 'Fall');
-
-INSERT INTO classes (stID, secNum, courseID, season)
-VALUES ('48679254', '002', 'CHE- 2031', 'Fall');
-
 INSERT INTO section (roomNum, bldg, sNum, season, profID, courseID)
 VALUES ('310A', 'Tolentine', '001', 'Spring', '111111113', 'ECE- 1205');
 
@@ -2082,6 +2044,56 @@ VALUES ( 17151783, '002', 'CEE- 3107' , 'Fall');
 INSERT INTO classes (stID, secNum, courseID, season)
 VALUES ( 17923644, '001', 'CEE- 3107' , 'Fall');
 
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ('01903023', '001', 'CHE- 2031', 'Fall');
 
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ('03111957', '001', 'CHE- 2031', 'Fall');
 
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ('27197870', '001', 'CHE- 2031', 'Fall');
 
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ('12000815', '001', 'CHE- 2031', 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ('07111867', '002', 'CHE- 2031', 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ('48396785', '002', 'CHE- 2031', 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ('48591263', '002', 'CHE- 2031', 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ('63748591', '002', 'CHE- 2031', 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ('48679254', '002', 'CHE- 2031', 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ('01903023', '001', 'CHE- 3031', 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ('03111957', '001', 'CHE- 3031', 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ('27197870', '002', 'CHE- 3031', 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ('12000815', '002', 'CHE- 3031', 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ('07111867', '001', 'CHE- 3031', 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ('48396785', '001', 'CHE- 3031', 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ('48591263', '002', 'CHE- 3031', 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ('63748591', '002', 'CHE- 3031', 'Fall');
+
+INSERT INTO classes (stID, secNum, courseID, season)
+VALUES ('48679254', '001', 'CHE- 3031', 'Fall');
