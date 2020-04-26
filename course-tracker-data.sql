@@ -279,14 +279,6 @@ VALUES ('Wenqing', 'V', 'Xu', '444444428', '28-JUL-69', 'F', '04');
 INSERT INTO professor (fname, minit, lname, pID, DOB, sex, dptID)
 VALUES ('Joseph', 'R', 'Yost', '444444429', '27-OCT-61', 'M', '04');
 
-
---Create the semester
-INSERT INTO semester (season, year_)
-VALUES ('Fall', 2019);
-
-INSERT INTO semester (season, year_)
-VALUES ('Spring', 2020);
-
 --Add the courses
 INSERT INTO course (cName, cID, season, year_, dptID)
 VALUES ('ECE Freshman Projects', 'ECE- 1205', 'Spring', '2020', '01');

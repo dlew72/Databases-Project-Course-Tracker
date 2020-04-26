@@ -43,13 +43,6 @@ CREATE TABLE course (
   primary key (cID, season)
   );
   
-DROP TABLE semester CASCADE CONSTRAINTS;
-CREATE TABLE semester (
-  season     varchar2(6),
-  year_      char(4),
-  primary key (season, year_)
-  );
-  
 DROP TABLE section CASCADE CONSTRAINTS;
 CREATE TABLE section (
   roomNum     varchar2(5),
@@ -62,7 +55,6 @@ CREATE TABLE section (
   );
   
 ALTER TABLE course ADD (
-  foreign key (season, year_) references semester(season, year_),
   foreign key (dptID)  references department(dID)
 );
 
