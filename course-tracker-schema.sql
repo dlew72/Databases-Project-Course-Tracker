@@ -53,7 +53,7 @@ CREATE TABLE semester (
 DROP TABLE section CASCADE CONSTRAINTS;
 CREATE TABLE section (
   roomNum     varchar2(5),
-  bldg        varchar2(20),
+  bldg        varchar2(30),
   sNum        char(3),
   season   varchar2(6),
   profID      char(9),
@@ -84,7 +84,7 @@ CREATE TABLE classes (
     stID    char(9),
     secNum  char(3),
     courseID char(9),
-    season varchar2(5),
+    season varchar2(6),
     foreign key (stID) references student(stID),
     foreign key (secNum, courseID, season) references section(sNum, courseID, season),
     primary key (stID, secNum, courseID, season)
