@@ -26,11 +26,22 @@ SELECT * FROM SECTION;
 SELECT SECNUM, COURSEID FROM CLASSES
 WHERE STID = 28365190;
 
---Get student data from name
+--Get student data from name (Alan Turing)
 SELECT * FROM STUDENT
 WHERE lname = 'Turing' AND fname = 'Alan';
 
 --Get the list of classes a professor teaches
 SELECT DISTINCT cName FROM COURSE c, SECTION s
 WHERE c.cID = s.courseID AND profID = '333333318';
+
+--List all students with a particular major (CPE)
+SELECT fname, lname FROM STUDENT
+WHERE major = 'Computer Eng';
+
+--List all ECE courses offered in the spring
+SELECT distinct cName FROM COURSE c, DEPARTMENT d
+WHERE c.season = 'Spring' and c.dptID = (SELECT dID FROM DEPARTMENT
+                                          WHERE dName = 'Comp/Elec Eng')
+ORDER BY cName asc;
+
 
