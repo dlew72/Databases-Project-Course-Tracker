@@ -2,10 +2,10 @@ SET DEFINE OFF;
 
 --Add the students
 INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
-VALUES ('George', 'S', 'Long', '001918234', '04-FEB-00', 'CPE', 'M', 'Comp Sci');
+VALUES ('George', 'S', 'Long', '001918234', '04-FEB-00', 'Computer Eng', 'M', 'Comp Sci');
 
 INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
-VALUES ('Danny', 'S', 'Lewis', '001696748', '23-MAY-00', 'CPE', 'M', 'Comp Sci');
+VALUES ('Danny', 'S', 'Lewis', '001696748', '23-MAY-00', 'Computer Eng', 'M', 'Comp Sci');
 
 INSERT INTO student (fname, minit, lname, stID, DOB, major, sex, minor)
 VALUES ('Andrew', 'K', 'Donofrio', '001635876', '02-JUN-99', 'Math', 'M', 'Comp Sci');
