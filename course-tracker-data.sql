@@ -26,16 +26,16 @@ VALUES ('Noelle', 'C', 'Comolli', '123456700', '03-DEC-59', 'F');
 
 --Add the department heads
 INSERT INTO department (dHead, dHeadID, dName, dID, dPhone)
-VALUES ('Mobasseri', '123456789', 'Comp/Elec Eng', '000000001', '6105194958');
+VALUES ('Mobasseri', '123456789', 'Comp/Elec Eng', '01', '6105194958');
 
 INSERT INTO department (dHead, dHeadID, dName, dID, dPhone)
-VALUES ('Santhanam', '123456780', 'Mechanical Eng', '000000002', '6105194996');
+VALUES ('Santhanam', '123456780', 'Mechanical Eng', '02', '6105194996');
 
 INSERT INTO department (dHead, dHeadID, dName, dID, dPhone)
-VALUES ('Comolli', '123456700', 'Chemical Eng', '000000003', '6105197134');
+VALUES ('Comolli', '123456700', 'Chemical Eng', '03', '6105197134');
 
 INSERT INTO department (dHead, dHeadID, dName, dID, dPhone)
-VALUES ('Gross', '123456000', 'Civil Eng', '000000004', '6105195390');
+VALUES ('Gross', '123456000', 'Civil Eng', '04', '6105195390');
 
 --Set the department head professors to department heads
 UPDATE professor

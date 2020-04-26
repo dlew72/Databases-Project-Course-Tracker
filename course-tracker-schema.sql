@@ -28,7 +28,7 @@ CREATE TABLE department (
   dHead    varchar2(15),
   dHeadID  char(9),
   dName    varchar2(15),
-  dID      char(9),
+  dID      char(2),
   dPhone   varchar(10),
   primary key (dID)
 );
