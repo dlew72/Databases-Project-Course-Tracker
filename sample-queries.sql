@@ -21,3 +21,16 @@ SELECT * FROM CLASSES;
 SELECT * FROM SECTION;
 
 
+--Extra useful queries:
+--See which classes a student is taking
+SELECT SECNUM, COURSEID FROM CLASSES
+WHERE STID = 28365190;
+
+--Get student data from name
+SELECT * FROM STUDENT
+WHERE lname = 'Turing' AND fname = 'Alan';
+
+--Get the list of classes a professor teaches
+SELECT DISTINCT cName FROM COURSE c, SECTION s
+WHERE c.cID = s.courseID AND profID = '333333318';
+
