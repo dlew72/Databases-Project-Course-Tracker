@@ -11,9 +11,6 @@ SELECT * FROM DEPARTMENT;
 --View all information about courses
 SELECT * FROM COURSE;
 
---View all information about semesters
-SELECT * FROM SEMESTER;
-
 --View all information about classes
 SELECT * FROM CLASSES;
 
