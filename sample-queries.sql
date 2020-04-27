@@ -51,3 +51,43 @@ SELECT d.dID, d.dName, count(p.pID)
 FROM DEPARTMENT d JOIN PROFESSOR p ON d.dID = p.dptID
 GROUP BY d.dID, d.dName
 ORDER BY dID asc;
+
+--Select all Mechanical Engineering classes
+SELECT DISTINCT cName, cID
+FROM course
+WHERE cID LIKE 'ME%';
+
+--Select all students with no middle initial
+SELECT *
+FROM student
+WHERE minit is null
+ORDER BY lname;
+
+--Select Fall courses with no assigned location
+SELECT *
+FROM section
+WHERE roomNum is null AND season = 'Fall';
+
+--Select students with Dr. Ozer (333333316) as a professor
+SELECT s.fname, s.lname, c.courseID, c.secNum, c.season
+FROM student s, classes c
+WHERE s.stID = c.stID AND c.courseID || c.secNum IN 
+    (SELECT t.courseID || t.sNum FROM section t WHERE t.profID = '333333316')
+ORDER BY s.lname;
+
+SELECT profID, count(*)
+FROM section
+WHERE profID IS NOT null
+GROUP BY profID;
+
+--Select the professor teaching the most classes
+DROP VIEW num_classes;
+CREATE VIEW num_classes (professor, total)
+AS SELECT profID, count(*)
+    FROM section
+    WHERE profID IS NOT null
+    GROUP BY profID;
+
+SELECT p.fname, p.lname, n.total
+FROM professor p, num_classes n
+WHERE p.pID = n.professor AND n.total = (SELECT max(total) FROM num_classes);
