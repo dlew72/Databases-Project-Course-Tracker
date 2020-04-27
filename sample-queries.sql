@@ -44,4 +44,13 @@ WHERE c.season = 'Spring' and c.dptID = (SELECT dID FROM DEPARTMENT
                                           WHERE dName = 'Comp/Elec Eng')
 ORDER BY cName asc;
 
-
+--Get the total number of professors in the CPE department
+SELECT COUNT(pID) FROM PROFESSOR
+WHERE dptID = (SELECT dID FROM DEPARTMENT
+               WHERE dName = 'Comp/Elec Eng');
+               
+--Get total number of professors in ANY department
+SELECT d.dID, d.dName, count(p.pID)
+FROM DEPARTMENT d JOIN PROFESSOR p ON d.dID = p.dptID
+GROUP BY d.dID, d.dName
+ORDER BY dID asc;
